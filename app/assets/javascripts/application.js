@@ -13,8 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require jquery.ui.draggable
+//= require pages
 //= require_self
 
-$(function() {
-  $( ".draggable" ).draggable({ containment: "#slide"});
-});
+

@@ -9,34 +9,7 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require twitter/bootstrap
- *= require_self
+ *= require pages
  */
 
-body{
-  background-color: #CCCCCC;
-}
-
-#slide{
-  background: #fff;
-  width: 800px;
-  height: 600px;
-  margin: 20px auto;
-  -webkit-box-shadow:  1px 1px 3px 4px #aaa;
-  box-shadow:  1px 1px 3px 4px #aaa;
-}
-
-.draggable{
-  display:inline;
-  position: relative;
-}
-
-.header{
-  left: 252px;
-  top: 213px;
-}
-
-.subheader{
-  left: 138px;
-  top: 289px;
-}
 
