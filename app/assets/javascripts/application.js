@@ -16,5 +16,5 @@
 //= require_self
 
 $(function() {
-  $( ".draggable" ).draggable();
+  $( ".draggable" ).draggable({ containment: "#slide"});
 });
